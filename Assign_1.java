@@ -4,13 +4,12 @@ public class Assign_1 {
 	
 	public static void main(String[] args) {
 		
-		Assign_1.PrintNumberInWord(-6);
+		Assign_1.PrintNumberInWord(9);
 	}
 	public static  void PrintNumberInWord (int number){
 		
 	String answer = new String();
 	
-	answer = "Other";
 		
 	if(number == 0) {
 		answer = "Zero";
@@ -41,6 +40,9 @@ public class Assign_1 {
 	}
 	if(number == 9) {
 		answer = "Nine";
+	}
+	else {
+		answer = "Other";
 	}
 	
 	System.out.println(answer);
