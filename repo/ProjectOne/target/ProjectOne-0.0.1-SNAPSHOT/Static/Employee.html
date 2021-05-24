@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Employee Home Page</title>
+	</head>
+		<body>
+		<div>
+			<h3>Welcome to the Employee Home Page</h3><br>
+			<h4>Please select from the options below.</h4>
+		</div>
+				<form action = "../Employee/ViewInformation" method = "Get">
+					<button class = "buttonE" type = "button" id = "viewEInfo">Your Information</button> <br><br>
+				</form>
+				
+				<form action = "../Employee/AddReimbursement" mehtod = "Post">
+					<button class = "buttonE" type = "button" id = "ReqApply">Apply For A Reimbursement</button> <br><br>
+				</form>
+				
+				<form action = "../Employee/UpdateInformation" method = "Post">
+					<button class = "buttonE" type = "button" id = "Eupdate">Update Information</button>
+				</form>
+					
+				<form action = "../Employee/ViewResolvedRequests" mehod = "Get">
+					<button class = "buttonE" type = "button" id = "ERes">View Your Resolved Requests</button>
+				</form>
+				
+				<form action = "../Employee/ViewPending" mehod = "Get">
+					<button class = "buttonE" type = "button" id = "EPend">View Your Pending Requests</button>
+				</form>
+				
+				<form action = "../index.Logoff" mehod = "Get">
+					<button class = "buttonE" type = "button" id = "Exit">Exit back to Login Page</button>
+				</form>
+		</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>Management Home Page</title>
+</head>
+<body>
+	<h1>Welcome to the ERS Management Home Page</h1> <br><br>
+	<form action = "../Management/ViewAllEmployees" method = "Get">
+	
+		<button class = buttonM type = "button" id = "view_all">View All ERS Employees</button>
+	</form><br><br>
+	
+	<form action = "../Management/ViewAllPendingRequests" method = "Post">
+		<button class = buttonM type = "button" id = "View_Pending_Requests"> View All Requests Pending</button>
+		
+	</form><br><br>
+	
+	<form action = "../Management/GetEmployeeReimbursementByID" method = "Post">
+		<button class = buttonM type = "button" id =  "ViewReqByEmp">View Requests for an Employee</button>
+		
+	</form><br><br>
+	
+	<form action = "../Management/DeclineAccept" method = "Post">
+		<button class = buttonM type = "button" id = "Accept/Decline">Accept or Decline Request</button>
+	</form><br><br>
+	
+	<form action = "../Management/ViewResolvedRequests" method = "Post">
+		<button class = buttonM type = "button" id = "ViewResolved">View Resolved Requests</button> 
+	
+	</form>
+	
+
+</body>
+</html>
